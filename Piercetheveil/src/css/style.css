@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+
+    background-color: rgb(51, 65, 28);
+}
+p{
+    color: white;
+    text-indent: 30px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-indent: 20px;
+}
+li{
+    color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    color: white;
+    border-width: 2px;
+
+}
+table{
+    margin: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+
+}
+video{
+    width: 20%;
+    height: 20%;
+}
+hr{
+    border: 1px solid  black;
+}
+h3{
+    color: white;
+    text-indent: 20px;
+}
+a{
+    color: wheat;
+}
+fieldset{
+    color: black;
+    border: 2px solid black;
+    margin: 5px;
+}
+label, textarea{
+    color: black
+}
+header{
+    background-color: rgb(29, 41, 10);
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
