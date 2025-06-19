@@ -1,0 +1,78 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-image: url(images/Fondopokes.png);
+      background-color: #000000b6;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 2rem;
+    }
+
+h1 {
+      color: #ffffff;
+      background-color: #00000096;
+    }
+
+input, button {
+      padding: 0.6rem;
+      font-size: 1rem;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      margin: 0.5rem;
+    }
+
+button {
+      background-color: #ef5350;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+button:hover {
+      background-color: #c62828;
+    }
+
+.pokemon-card {
+      background: white;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      display: none;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      transition: background-color 0.3s;
+    }
+
+img {
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+.type-tag {
+      display: inline-block;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 12px;
+      margin: 0 5px 10px 0;
+      font-size: 0.9rem;
+      text-transform: capitalize;
+    }
+
+.stat {
+      margin-bottom: 10px;
+    }
+
+.stat-bar {
+      height: 10px;
+      background-color: #eee;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+.stat-bar-fill {
+      height: 100%;
+      background-color: #4caf50;
+    }
